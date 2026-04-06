@@ -1,0 +1,41 @@
+name: qrscanner
+description: A QR scanner and generator app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # QR Scanner
+  mobile_scanner: ^4.0.0
+  
+  # QR Generator - Using correct version
+  qr_flutter: ^4.1.0
+  
+  # Share content
+  share_plus: ^7.2.2
+  
+  # Permission handling
+  permission_handler: ^11.0.1
+  
+  # Save images to gallery
+  image_gallery_saver: ^2.0.3
+  
+  # Local storage for history
+  shared_preferences: ^2.2.2
+  
+  # For file operations
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
